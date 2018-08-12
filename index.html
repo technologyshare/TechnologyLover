@@ -13,6 +13,12 @@
 </head>
 <script>
         $(document).ready(function (){
+		
+		 var url =  document.location.href;
+	 var id = window.location.search.substring(1); 
+		alert(" ok "+url);
+		alert(" id "+id);
+		
          if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
              window.location.href = 'market://details?id=com.technical.technologylover';
          }else if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
