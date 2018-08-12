@@ -19,8 +19,8 @@
 		
 	
 		
-		var res = url.split("?ref=", 1);
-		alert(" ok "+res);
+		var res = url.split("?ref=");
+		alert(" ok-- "+res[1]);
 		
          if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
              window.location.href = 'market://details?id=com.technical.technologylover';
